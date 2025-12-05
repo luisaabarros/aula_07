@@ -12,21 +12,21 @@
 
 # Cadastro em Dicionários
 
-livros = {}
-lista_cadastros = []
+# livros = {}
+# lista_cadastros = []
 
-for i in range(3):
-    titulo = input('Informe o título: ')
-    autor = input('Informe o autor: ')
-    ano = int(input('Informe o ano: '))
-    genero = input('Informe o gênero: ')
+# for i in range(3):
+#     titulo = input('Informe o título: ')
+#     autor = input('Informe o autor: ')
+#     ano = int(input('Informe o ano: '))
+#     genero = input('Informe o gênero: ')
 
-    livros = {
-        'Título' : titulo, 
-        'Autor' : autor,
-        'Ano' : ano,
-        'Gênero' : genero
-    }
+#     livros = {
+#         'Título' : titulo, 
+#         'Autor' : autor,
+#         'Ano' : ano,
+#         'Gênero' : genero
+#     }
 
-    lista_cadastros.append(livros)
-    print(f'Livro {i + 1} Cadastrado.')
+#     lista_cadastros.append(livros)
+#     print(f'Livro {i + 1} Cadastrado.')
